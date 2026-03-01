@@ -35,5 +35,4 @@ def index():
     )
 
 # (Rest of your HTML_TEMPLATE and ERROR_TEMPLATE remain EXACTLY SAME)
-response = requests.get(url, timeout=5, verify=False)
 
