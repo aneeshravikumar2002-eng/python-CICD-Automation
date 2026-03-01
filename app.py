@@ -35,4 +35,3 @@ def index():
     )
 
 # (Rest of your HTML_TEMPLATE and ERROR_TEMPLATE remain EXACTLY SAME)
-
