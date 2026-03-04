@@ -17,5 +17,6 @@ spec:
       containers:
         - name: beautiful-flask
           image: aneesh292002/beautiful-flask-app:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 5000
