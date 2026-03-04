@@ -33,5 +33,7 @@ def index():
         title=title,
         timestamp=datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")
     )
+    if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000)
 
 # (Rest of your HTML_TEMPLATE and ERROR_TEMPLATE remain EXACTLY SAME)
